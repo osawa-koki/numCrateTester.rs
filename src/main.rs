@@ -59,13 +59,13 @@ fn main() {
         println!("cplx_1.norm() -> {}", cplx_1.norm());
         println!("cplx_1.norm_sqr() -> {}", cplx_1.norm_sqr());
         println!("cplx_1.norm().powi(2) -> {}", cplx_1.norm().powi(2));
-        // <li>norm</li>
-        // <li>norm_sqr</li>
-        // <li>exp</li>
-        // <li>ln</li>
-        // <li>sqrt</li>
-        // <li>cbrt</li>
-        // <li>log</li>
-        // <li>powf</li>
+        println!("cplx_1.exp() -> {}", cplx_1.exp());
+        println!("cplx_1.ln() -> {}", cplx_1.ln());
+        println!("cplx_1.sqrt() -> {}", cplx_1.sqrt());
+        println!("cplx_1.cbrt() -> {}", cplx_1.cbrt());
+        println!("cplx_1.log(10.0) -> {}", cplx_1.log(10.0));
+        println!("cplx_1.powi(2) -> {}", cplx_1.powi(2));
+        println!("cplx_1.powf(2.5) -> {}", cplx_1.powf(2.5));
+        println!("cplx_1.powc(cplx_2) -> {}", cplx_1.powc(cplx_2));
     }
 }
